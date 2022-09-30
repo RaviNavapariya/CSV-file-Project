@@ -1,0 +1,12 @@
+_______________________json data transfer________________________
+
+
+load json file data into model>>>>>>>>>>>>>>>>>>>
+
+python manage.py loaddata app/csv.json --app app.Meteric
+
+-------------------------------------------------------------
+
+dump model data into json file>>>>>>>>>>>>>>>>>>>
+
+python manage.py dumpdata app.Model --indent 4 > app/folder/data.json
